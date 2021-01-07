@@ -1,0 +1,153 @@
+@media (max-width:991px) {
+
+    header,
+    header.sticky {
+        padding: 0px 50px;
+    }
+
+    header nav .navigation {
+        display: none;
+    }
+
+    header nav .navigation.active {
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 49px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+    }
+
+    header nav .navigation li a {
+        font-size: 1.6em;
+        color: #111;
+        
+    }
+
+
+    .menuToggle {
+        position: absolute;
+        right: 40px;
+        width: 40px;
+        height: 40px;
+        background: url(../images/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        filter: invert(1);
+        -webkit-filter: invert(1);
+    }
+
+    .menuToggle.active {
+
+
+        background: url(../images/close-button.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    header.sticky .menuToggle {
+        filter: invert(0);
+        -webkit-filter: invert(0);
+    }
+    section {
+    padding: 20px;
+}
+.banner .content h2 {
+    font-size: 3em;
+    
+}
+.banner {
+   
+    min-height: 800px;
+   
+}
+.row
+{
+    flex-direction: column;
+}
+.row .col50
+{
+    width: 100%;
+}
+.row .col50 .imgBx {
+    
+    height: 500px;
+    margin-top: 20px;
+}
+.titleText
+{
+    text-align: center;
+}
+.menu .content
+{
+    margin-top: 0px;
+}
+.menu .content .box {
+	
+	margin: 10px;
+}
+
+.menu .content .box .imgBx {
+	height: 240px;
+}
+.titleText
+{
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.testimonials .content .box {
+
+	margin: 10px;
+	padding: 20px;
+	
+}
+.contactForm
+{
+ padding: 35px 40px;
+ margin-top: 20px;
+  box-shadow: 10px 0px 0px #ff0157;
+}
+p
+{
+    text-align: center;
+}
+}
+
+@media (max-width:400px)
+{
+    .banner
+    {
+        min-height: 700px;
+    }
+    .banner .content h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+header, header.sticky {
+    padding: 10px 20px;
+}
+header .logo 
+{
+    font-size: 1.5em;
+}
+.menuToggle {
+
+	right: 12px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/menu.png);
+	background-size: 21px;
+	background-repeat: no-repeat;
+	
+}
+}
