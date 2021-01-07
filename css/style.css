@@ -137,7 +137,7 @@ header nav .navigation li a:hover {
 .banner {
     position: relative;
     width: 100%;
-    min-height: 900px;
+    min-height: 940px;
     display: flex;
     align-items: center;
     justify-content: center;
